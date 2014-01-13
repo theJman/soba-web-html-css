@@ -1,10 +1,10 @@
 # SoBA Web Curriculum
 
-### Lesson 1: Git & HTML
+### Lesson 1: Git, HTML, Intro CSS
 
 #### Overview
 
-For this lesson you will create a new GitHub account for yourself ~ if you do not already have one ~ fork this repository to your own account, and clone it to your local machine for development. You will then complete the assignment as outlined in the instructions below and in the assignment's web pages.
+For this lesson you will create a new GitHub account for yourself ~ if you do not already have one ~ fork this repository to your own account, and clone it to your local machine for development. You will then complete the assignments as outlined in the instructions below and in the assignment web pages.
 
 #### Instructions
 
@@ -19,6 +19,8 @@ In order to do this, you need to set up a GitHub account.
 **Assignment 1**
 
 Create a new GitHub account. You will need to set up SSH keys, which will require interacting with the Terminal. Follow GitHub's instructions and work on this with your fellow students who already have experience setting up accounts.
+
+[https://help.github.com/articles/generating-ssh-keys](https://help.github.com/articles/generating-ssh-keys)
 
 We will be distributing your homework assignments via GitHub. A repository will be created for each lesson and posted to this account. You will need to *fork* this repository to your own GitHub account, effecitvely creating a copy of it for you to work on, and then *clone* that repository to your computer so you can edit it.
 
@@ -48,7 +50,7 @@ You can read more about git branching at [http://git-scm.com/book/en/Git-Branchi
 
 **Assignment 5**
 
-You will find the rest of the instructions for this assignment embedded in the HTML files in the *html-lesson* directory. You will be converting plain text into HTML; add the required HTML tags. Each file includes additional instructions in the form of comments. I suggest approaching the assingment in the following order:
+You will find the rest of the instructions for this assignment embedded in the HTML files in the *html-lesson* directory. You will be converting plain text into HTML; add the required HTML tags. Each file includes additional instructions in the form of comments. I suggest approaching the assignment in the following order:
 
 * index.html
 * people.html
@@ -58,10 +60,16 @@ You will find the rest of the instructions for this assignment embedded in the H
 
 Use Python's built-in SimpleHTTPServer module to view your changes. **Never** view an HTML file directly in a web browser. Always access it through a (local) server.
 
-You have two excellent resources to assist you in this process:
+In the terminal:
 
-1. [The Mozilla Developers Network](https://developer.mozilla.org/en-US/)
-2. [The always amazing StackOverflow](http://stackoverflow.com/)
+	cd soba-web-html-css
+	python -m SimpleHTTPServer
+
+You have three excellent resources to assist with the homework:
+
+1. Each other!
+2. [The Mozilla Developers Network](https://developer.mozilla.org/en-US/)
+3. [The always amazing StackOverflow](http://stackoverflow.com/)
 
 **CSS**
 
