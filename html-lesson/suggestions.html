@@ -9,31 +9,51 @@
   <nav>
 
     <!-- Turn the following text into an unordered list with each item of the list linking to the appropriate web page. Indicate this page by making the text strong. -->
-
-    Index
-    Syllabus
-    Resources
-    Sections
-    Suggestions
-    People
+    <ul>
+        <span><strong>Navigation</strong></span>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="syllabus.html">Syllabus</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="sections.html">Sections</a></li>
+        <li><a href="suggestions.html"><strong>Suggestions</strong></a></li>
+        <li><a href="people.html">People</a></li>
+    </ul>
 
   </nav>
 
   <section>
 
-    Contact Us <!-- Turn this into an h3 element -->
+    <h3>Contact Us</h3> <!-- Turn this into an h3 element -->
 
     <!-- In this section, create a form that allows people to send questions to the customer service department of your online business. Your form should have text inputs for a person's name and email address as well as a dropdown list (select tag) for the type of question [Bug Report, Feature Request, Sales, Other] and a text area for the question itself.
 
     Each element of the form should be on it's own line, and each element should have a label identifying what it is, e.g. Name, Email, Query, and Question. Add an action to the form that points to this page, and add a Submit button that triggers the action. Naturally, the form won't do anything except  reload the page, but it's a start! -->
+    <div>Name
+      <div>
+        <input type="text" name="name" placeholder="Please enter name">
+      </div>
+    </div>
+    <div>Email
+      <div><input type="text" name="email" placeholder="Please enter email"></div>
+    </div>
+    <div>Type of Question
+      <div>
+        <select name="questiontype">
+          <option value="bugreport">Bug Report</option>
+          <option value="featurerequest">Feature Request</option>
+          <option value="salse">Sales</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+    </div>
+    <div>Question
+      <div>
+        <textarea name="question" cols=50 rows=20></textarea>
+      </div>
+    </div>
+    <div><input type="submit" value="Submit"></div>
 
-    Name
-
-    Email
-
-    Query
-
-    Question
+    
 
   </section>
 
